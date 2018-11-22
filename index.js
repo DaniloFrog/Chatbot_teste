@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
 
 // Index route
-app.get('/', function (req, res) {
+app.get('/webhook/', function (req, res) {
     res.send('Hello , I am a chat bot')
 })
 
